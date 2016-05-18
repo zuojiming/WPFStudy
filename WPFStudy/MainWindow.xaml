@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPFStudy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFStudy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+        
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <GradientStop Offset="0.2" Color="Azure" />
+                <GradientStop Offset="0.3" Color="Beige" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="按钮" Foreground="{x:Static SystemColors.ActiveBorderBrush}">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="Red"></SolidColorBrush>
+            </Button.BorderBrush>
+        </Button>
+        <StackPanel Orientation="Horizontal">
+            <Button HorizontalAlignment="Left" x:Name="btnaa">aa</Button>
+        </StackPanel>
+    </Grid>
+</Window>
